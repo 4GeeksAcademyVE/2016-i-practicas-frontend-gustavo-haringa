@@ -1,0 +1,7 @@
+function nombreFuncion($params,n){
+return $valor;
+}
+
+validar solo numeros.
+
+preg_match("/^-?[0-9]+$/",$num);

@@ -1,0 +1,24 @@
+.contenedor{
+	background: #cccccc;
+	width: 800px;
+	height: 600px;
+	/*background-image: url(img1.png), url(img1.png);
+	background-repeat: no-repeat, no-repeat;
+	background-position: right bottom, left top;*/
+
+	/*background: url(img1.png) no-repeat center;
+	background-size: auto;*/
+	/*border: 10px solid black;
+	padding: 50px;
+	background: url(img1.png);
+	background-repeat: no-repeat;
+	background-origin: border-box;*/
+	
+	border: 10px dotted black;
+	padding: 15px;
+	background: yellow;
+	background-clip: border-box;
+
+
+
+}

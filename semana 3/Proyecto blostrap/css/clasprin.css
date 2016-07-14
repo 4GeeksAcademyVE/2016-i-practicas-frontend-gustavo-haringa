@@ -1,0 +1,14 @@
+body{
+	background: #cfc5a9;
+}
+/*modificando clase container*/
+
+.container{
+	margin-top: 50px;
+	width: 550px;
+	background: -moz-linear-gradient(top, #838383,#ffffff);
+}
+
+.colordeimagenes{
+	background: -moz-linear-gradient(bottom, blue 75%,transparent 75%);
+}

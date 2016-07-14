@@ -1,0 +1,31 @@
+@font-face{
+	font-family: fuenteloca;
+    src: url(leadcoat.ttf);
+}
+.FUENTEB{
+font-family: fuenteloca;
+font-size: 24px;
+font-weight: bold;
+}
+@font-face{
+	font-family: MiFuentea;
+    src: url(COMICATE.TTF);
+}
+.FUENTEA{
+font-family: MiFuentea;
+font-size: 24px;
+font-weight: bold;
+}
+@font-face{
+	font-family: fuenpi;
+    src: url(enervate.ttf);
+}
+.FUENTEC{
+font-family: fuenpi;
+font-size: 24px;
+font-weight: bold;
+}
+#titulos{
+	font-size: 54px;
+	text-shadow: 2px 2px 2px blue;
+}

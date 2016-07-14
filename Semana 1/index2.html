@@ -1,0 +1,63 @@
+<!-- 
+1.- JavaScript no es un lenguaje de programación propiamente dicho como C, C++, Delphi, etc. 
+
+2.- Es un lenguaje script u orientado a documento, como pueden ser los lenguajes de macros que tienen muchos procesadores de texto y planillas de cálculo. 
+
+3.- No se puede desarrollar un programa con JavaScript que se ejecute fuera de un Navegador, aunque en este momento comienza a expandirse a otras áreas como la programación en el servidor con Node.js
+
+4- JavaScript es un lenguaje interpretado que se embebe en una página web HTML. Un lenguaje interpretado significa que a las instrucciones las analiza y procesa el navegador en el momento que deben ser ejecutadas. 
+-->
+<html>
+<head>
+<title>Ejemplo Javascript</title>
+</head>
+<body> 
+<script type="text/javascript">
+  //document.write('Hola Mundo');
+  //alert("Hola Mundo");
+  //var nombre = prompt('Datos Usuario: Ingrese Nombre:');
+  //alert(nombre);
+
+  //var opcion = confirm("Desea Eliminar el Registro");
+
+  function obtenerNombre(nombre){
+  	imprimirNombre(nombre);
+  }
+
+function imprimirNombre(nombre){
+	alert(nombre);
+}
+
+//obtenerNombre("Pedro Alvarez");
+
+/*for (var i = 0; i < Things.length; i++) {
+	Things[i]
+}
+
+while(){
+
+}
+
+switch(i){
+	case 1:
+		break;
+}
+*/
+var nombre = "Miguel Angel Landa";
+
+var res = nombre.split(" ");
+
+//alert(res.length);
+
+for(var i = 0; i<res.length; i++){
+	alert(res[i]);
+}
+
+document.getElementById("nombre");
+document.getElementsByTagName("A");
+
+</script>
+
+</body>
+</html>
+

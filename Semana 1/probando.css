@@ -1,0 +1,11 @@
+.menu_vertical a{
+	border-style: blue;
+	background-color: rgba(0, 167, 173, 0.9);
+	text-decoration: none;
+	font-style: Arial;
+	font-size: 30px;
+
+}
+.menu_vertical li{
+	list-style: none;
+}

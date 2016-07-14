@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Esquinas Redondeadas</title>
+	<link rel="stylesheet" href="css3style.css">
+</head>
+<body>
+
+<div class="bordes-con-imagen">
+	<h4>Ejemplo de Bordes con Imagenes</h4>
+</div>
+
+</body>
+</html>

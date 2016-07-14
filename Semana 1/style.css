@@ -1,0 +1,94 @@
+/* Documento CSS */
+
+h1{
+	color: red;
+}
+
+h1#titulo_principal{
+	color: blue;
+}
+
+#titulo_principal{
+	color: blue;
+}
+
+.class1{
+	color: red;
+}
+
+.class2{
+	font-size: 18px;
+}
+
+p{
+	font-size: 20px;
+}
+
+p{
+	font-size: 50px;
+}
+
+p{
+	font-size: 10px;
+	text-align: center;
+}
+
+p#parrafo_izquierda{
+	color: green;
+	float: left;
+	width: 50%;
+}
+
+p#parrafo_derecha{
+	color: blue;
+	float: right;
+	width: 50%;
+}
+
+.link1{
+	text-decoration: none;
+	color: green;
+}
+
+.link1:hover{
+	color: blue;
+}
+
+.link1:link{
+	color: red;
+}
+
+.link1:visited{
+	color: white;
+}
+
+.link1:active{
+	color: yellow;
+}
+
+
+
+.link2{
+	color: red;
+}
+.link3{
+	font-size: 12px;
+}
+.link4{
+	font-weight: bold;
+}
+.link5{
+	text-decoration: none;
+}
+
+.link5:link, .link5:visited{
+	background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.link5:hover, .link5:active{
+	background-color: #97A79A;
+}
